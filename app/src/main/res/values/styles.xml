@@ -1,0 +1,313 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionBarStyle">@style/myactionbar</item>
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/myactionbar</item>
+
+        <item name="android:windowActionBarOverlay">true</item>
+
+        <item name="android:windowDisablePreview">true</item>
+
+
+        <!--<item name="android:windowDisablePreview">true</item>-->
+        <!--&lt;!&ndash;<item name="windowActionBar">false</item>&ndash;&gt;-->
+        <!--<item name="android:textColorPrimary">@android:color/white</item>-->
+        <!--<item name="android:textColorSecondary">@android:color/white</item>-->
+        <!--<item name="actionMenuTextColor">@android:color/white</item>-->
+        <!--  It should be true otherwise action mode will not overlay toolbar -->
+        <item name="windowActionModeOverlay">true</item>
+
+        <!--  For Custom Action Mode Background Color/Drawable -->
+        <item name="actionModeBackground">@color/colorAccent</item>
+
+    </style>
+
+    <style name="myactionbar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <!--<item name="android:titleTextStyle">@style/TitleBarTextColor</item>-->
+        <item name="android:background">@color/green_color</item>
+        <!-- Support library compatibility -->
+        <item name="background">@color/green_color</item>
+        <item name="android:textSize">12sp</item>
+
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TitleBarTextColor" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="tab_text" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColor">@color/light_black</item>
+        <item name="android:textSize">11dp</item>
+    </style>
+
+    <style name="error_appearance" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColor">@color/red_snackbar</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!--<style name="DialogAnimation">-->
+        <!--<item name="android:windowEnterAnimation">@anim/dialog_right_to_left</item>-->
+        <!--<item name="android:windowExitAnimation">@anim/dialog_left_to_right</item>-->
+    <!--</style>-->
+
+
+    <style name="Font_Bold_10" parent="">
+        <item name="android:textAppearance">@style/TextAppearance.Text.Bold</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="Font_Bold_12" parent="">
+        <item name="android:textAppearance">@style/TextAppearance.Text.Bold</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Font_Bold_14" parent="">
+        <item name="android:textAppearance">@style/TextAppearance.Text.Bold</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Font_Bold_16" parent="">
+        <item name="android:textAppearance">@style/TextAppearance.Text.Bold</item>
+        <item name="android:textSize">@dimen/Font_Normal_16</item>
+    </style>
+
+    <style name="Font_Bold_18" parent="">
+        <item name="android:textAppearance">@style/TextAppearance.Text.Bold</item>
+        <item name="android:textSize">@dimen/Font_Normal_18</item>
+    </style>
+
+    <style name="Font_Bold_20" parent="">
+        <item name="android:textAppearance">@style/TextAppearance.Text.Bold</item>
+        <item name="android:textSize">@dimen/Font_Normal_20</item>
+    </style>
+
+    <style name="Font_Bold_22" parent="">
+        <item name="android:textAppearance">@style/TextAppearance.Text.Bold</item>
+        <item name="android:textSize">@dimen/Font_Normal_22</item>
+    </style>
+
+    <style name="Font_Bold_24" parent="">
+        <item name="android:textAppearance">@style/TextAppearance.Text.Bold</item>
+        <item name="android:textSize">@dimen/Font_Normal_24</item>
+    </style>
+
+    <style name="Font_Bold_28" parent="">
+        <item name="android:textAppearance">@style/TextAppearance.Text.Bold</item>
+        <item name="android:textSize">@dimen/Font_Normal_28</item>
+    </style>
+
+    <style name="Font_Bold_30" parent="">
+        <item name="android:textAppearance">@style/TextAppearance.Text.Bold</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="Font_Bold_32" parent="">
+        <item name="android:textAppearance">@style/TextAppearance.Text.Bold</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <style name="Font_Bold_40" parent="">
+        <item name="android:textAppearance">@style/TextAppearance.Text.Bold</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <style name="Font_Normal_10" parent="">
+        <item name="android:textAppearance">@style/TextAppearance.Text.Regular</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="Font_Normal_12" parent="">
+        <item name="android:textAppearance">@style/TextAppearance.Text.Regular</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Font_Normal_14" parent="">
+        <item name="android:textAppearance">@style/TextAppearance.Text.Regular</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Font_Normal_16" parent="">
+        <item name="android:textAppearance">@style/TextAppearance.Text.Regular</item>
+        <item name="android:textSize">@dimen/Font_Normal_16</item>
+    </style>
+
+    <style name="Font_Normal_18" parent="">
+        <item name="android:textAppearance">@style/TextAppearance.Text.Regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/Font_Normal_18</item>
+    </style>
+
+    <style name="Font_Normal_20" parent="">
+        <item name="android:textAppearance">@style/TextAppearance.Text.Regular</item>
+        <item name="android:textSize">@dimen/Font_Normal_20</item>
+    </style>
+
+    <style name="Font_Normal_22" parent="">
+        <item name="android:textAppearance">@style/TextAppearance.Text.Regular</item>
+        <item name="android:textSize">@dimen/Font_Normal_22</item>
+    </style>
+
+    <style name="Font_Normal_24" parent="">
+        <item name="android:textAppearance">@style/TextAppearance.Text.Regular</item>
+        <item name="android:textSize">@dimen/Font_Normal_24</item>
+    </style>
+
+    <style name="Font_Normal_28" parent="">
+        <item name="android:textAppearance">@style/TextAppearance.Text.Regular</item>
+        <item name="android:textSize">@dimen/Font_Normal_28</item>
+    </style>
+
+    <style name="Font_Normal_30" parent="">
+        <item name="android:textAppearance">@style/TextAppearance.Text.Regular</item>
+        <item name="android:textSize">@dimen/Font_Normal_30</item>
+    </style>
+
+    <style name="Font_Normal_32" parent="">
+        <item name="android:textAppearance">@style/TextAppearance.Text.Regular</item>
+        <item name="android:textSize">@dimen/Font_Normal_32</item>
+    </style>
+
+    <style name="Font_Normal_48" parent="">
+        <item name="android:textAppearance">@style/TextAppearance.Text.Regular</item>
+        <item name="android:textSize">@dimen/Font_Normal_48</item>
+    </style>
+
+    <style name="Font_Normal_Italic_20" parent="">
+        <item name="android:textAppearance">@style/TextAppearance.Text.Italic</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TextStyle">
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:textColor">@color/light_blue_500</item>
+    </style>
+
+    <!--<style name="TextAppearence.App.TextInputLayout" parent="@android:style/TextAppearance">-->
+    <!--<item name="android:textColor">@color/black</item>-->
+    <!--<item name="android:textSize">12dp</item>-->
+    <!--<item name="fontPath">fonts/source-sans-pro/SourceSansPro-Regular.ttf</item>-->
+    <!--</style>-->
+
+    <style name="TextAppearence.App.TextInputLayout1" parent="@android:style/TextAppearance">
+        <!--<item name="android:textColor">@color/white</item>-->
+        <item name="android:textSize">12dp</item>
+        <item name="fontPath">fonts/source-sans-pro/SourceSansPro-Regular.ttf</item>
+    </style>
+
+    <style name="TextAppearance.Text.Regular" parent="android:TextAppearance">
+        <item name="fontPath">fonts/Roboto-Regular.ttf</item>
+    </style>
+
+    <style name="TextAppearance.Text.Bold" parent="android:TextAppearance">
+        <item name="fontPath">fonts/Roboto-Bold.ttf</item>
+    </style>
+
+    <style name="TextAppearance.Text.Light" parent="android:TextAppearance">
+        <item name="fontPath">fonts/Roboto-Light.ttf</item>
+    </style>
+
+    <style name="TextAppearance.Text.Italic" parent="android:TextAppearance">
+        <item name="fontPath">fonts/Roboto-Italic.ttf</item>
+    </style>
+
+    <!--<style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">-->
+    <!--<item name="android:windowBackground">@mipmap/splash_ic</item>-->
+    <!--</style>-->
+
+    <style name="EditTextStyle">
+        <item name="android:textSize">13dp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <!--<item name="android:background">@drawable/white_bg</item>-->
+        <item name="android:gravity">center</item>
+        <item name="android:focusable">true</item>
+        <item name="android:inputType">number</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="TextStylesInput">
+        <item name="android:textSize">11dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <!--<item name="android:background">@color/hint_color</item>-->
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TextStylesHeadingWithoutBackgroundColor">
+        <item name="android:textSize">10sp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColor">@color/gray_color</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TextStylesHeading">
+        <item name="android:textSize">10sp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <!--<item name="android:background">@color/hint_color</item>-->
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="AllGameTopDesign">
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <!--<item name="android:background">@color/selected_tab_color</item>-->
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="AllGameBottomDesign">
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+
+    <style name="TextStylesNominalInput">
+        <item name="android:textSize">13dp</item>
+        <item name="android:textStyle">bold</item>
+        <!--<item name="android:textCursorDrawable">@color/dark_color1</item>-->
+        <item name="android:gravity">center</item>
+        <!--<item name="android:hint">@string/nominal_txt</item>-->
+        <!--<item name="android:background">@drawable/white_bg</item>-->
+        <item name="android:focusable">true</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:inputType">number</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <!--<style name="checkBoxStyle" parent="Base.Theme.AppCompat">-->
+    <!--<item name="colorAccent">@color/chat</item>-->
+    <!--<item name="android:textColorSecondary">@color/white</item>-->
+    <!--</style>-->
+
+
+</resources>

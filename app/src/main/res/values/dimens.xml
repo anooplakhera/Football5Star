@@ -1,0 +1,75 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">200dp</dimen>
+    <dimen name="tab_padding_size">2dp</dimen>
+    <dimen name="tab_nested_fragment_padding_size">4dp</dimen>
+
+    <dimen name="Font_Normal_1">1sp</dimen>
+    <dimen name="Font_Normal_2">2sp</dimen>
+    <dimen name="Font_Normal_3">3sp</dimen>
+    <dimen name="Font_Normal_4">4sp</dimen>
+    <dimen name="Font_Normal_5">5sp</dimen>
+    <dimen name="Font_Normal_6">6sp</dimen>
+    <dimen name="Font_Normal_7">7sp</dimen>
+    <dimen name="Font_Normal_8">8sp</dimen>
+    <dimen name="Font_Normal_9">9sp</dimen>
+    <dimen name="Font_Normal_10">10sp</dimen>
+    <dimen name="Font_Normal_12">12sp</dimen>
+    <dimen name="Font_Normal_13">13sp</dimen>
+    <dimen name="Font_Normal_14">14sp</dimen>
+    <dimen name="Font_Normal_15">15sp</dimen>
+    <dimen name="Font_Normal_16">16sp</dimen>
+    <dimen name="Font_Normal_18">18sp</dimen>
+    <dimen name="Font_Normal_20">20sp</dimen>
+    <dimen name="Font_Normal_22">22sp</dimen>
+    <dimen name="Font_Normal_24">24sp</dimen>
+    <dimen name="Font_Normal_25">25sp</dimen>
+    <dimen name="Font_Normal_26">26sp</dimen>
+    <dimen name="Font_Normal_28">28sp</dimen>
+    <dimen name="Font_Normal_30">30sp</dimen>
+    <dimen name="Font_Normal_32">32sp</dimen>
+    <dimen name="Font_Normal_35">35sp</dimen>
+    <dimen name="Font_Normal_40">40sp</dimen>
+    <dimen name="Font_Normal_48">48sp</dimen>
+
+    <!--Layout Padding Margin  START-->
+
+    <dimen name="View_SP_5">5sp</dimen>
+    <dimen name="View_SP_10">10sp</dimen>
+    <dimen name="View_SP_15">15sp</dimen>
+    <dimen name="View_SP_20">20sp</dimen>
+    <dimen name="View_SP_25">25sp</dimen>
+    <dimen name="View_SP_30">30sp</dimen>
+    <dimen name="View_SP_35">35sp</dimen>
+    <dimen name="View_SP_40">40sp</dimen>
+    <dimen name="View_SP_45">45sp</dimen>
+    <dimen name="View_SP_50">50sp</dimen>
+    <dimen name="View_SP_60">60sp</dimen>
+    <dimen name="View_SP_70">70sp</dimen>
+    <dimen name="View_SP_80">80sp</dimen>
+    <dimen name="View_SP_90">90sp</dimen>
+
+    <!--Layout Padding Margin  START-->
+
+    <dimen name="margin_padding_5dp">5dp</dimen>
+    <dimen name="margin_padding_10dp">10dp</dimen>
+    <dimen name="margin_padding_20dp">20dp</dimen>
+    <dimen name="margin_padding_30dp">30dp</dimen>
+    <dimen name="margin_padding_40dp">40dp</dimen>
+    <dimen name="margin_padding_70dp">70dp</dimen>
+
+
+    <dimen name="Spinner_dropdown_layout">200sp</dimen>
+    <dimen name="snack_bar_text_size">4sp</dimen>
+    <dimen name="fab_margin">2dp</dimen>
+
+    <dimen name="image_padding">3dp</dimen>
+    <dimen name="image_size">25dp</dimen>
+
+    <dimen name="tab_height">48dp</dimen>
+    <dimen name="tab_height_large">72dp</dimen>
+
+</resources>

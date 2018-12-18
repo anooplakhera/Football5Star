@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Notification Layout-->
+    <RelativeLayout
+        android:id="@+id/rel_currentversion"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_padding_40dp"
+        android:layout_margin="@dimen/margin_padding_5dp">
+
+        <ImageView
+            android:id="@+id/iv_notifications"
+            android:layout_width="@dimen/margin_padding_30dp"
+            android:layout_height="@dimen/margin_padding_30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/margin_padding_5dp"
+            android:src="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:id="@+id/tv_currentversion_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_padding_5dp"
+            android:layout_toRightOf="@+id/iv_notifications"
+            android:text="@string/label_notification" />
+
+    </RelativeLayout>
+
+    <!-- Bookmarks Layout-->
+    <RelativeLayout
+        android:id="@+id/rel_bookmarks"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_padding_40dp"
+        android:layout_margin="@dimen/margin_padding_5dp">
+
+        <ImageView
+            android:id="@+id/iv_bookmarks"
+            android:layout_width="@dimen/margin_padding_30dp"
+            android:layout_height="@dimen/margin_padding_30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/margin_padding_5dp"
+            android:src="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:id="@+id/tv_bookmarks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_padding_5dp"
+            android:layout_toRightOf="@+id/iv_bookmarks"
+            android:text="@string/title_bookmarks" />
+
+    </RelativeLayout>
+
+    <!-- Language Layout-->
+    <RelativeLayout
+        android:id="@+id/rel_language"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_padding_40dp"
+        android:layout_margin="@dimen/margin_padding_5dp">
+
+        <ImageView
+            android:id="@+id/iv_language"
+            android:layout_width="@dimen/margin_padding_30dp"
+            android:layout_height="@dimen/margin_padding_30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/margin_padding_5dp"
+            android:src="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:id="@+id/tv_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_padding_5dp"
+            android:layout_toRightOf="@+id/iv_language"
+            android:text="@string/title_language" />
+
+    </RelativeLayout>
+
+    <!-- Settings Layout-->
+    <RelativeLayout
+        android:id="@+id/rel_settings"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_padding_40dp"
+        android:layout_margin="@dimen/margin_padding_5dp">
+
+        <ImageView
+            android:id="@+id/iv_settings"
+            android:layout_width="@dimen/margin_padding_30dp"
+            android:layout_height="@dimen/margin_padding_30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/margin_padding_5dp"
+            android:src="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:id="@+id/tv_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_padding_5dp"
+            android:layout_toRightOf="@+id/iv_settings"
+            android:text="@string/title_settings" />
+
+    </RelativeLayout>
+
+    <!--Line-up Manager & FAQ layouts-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_padding_10dp"
+        android:layout_marginTop="@dimen/margin_padding_30dp"
+        android:layout_marginRight="@dimen/margin_padding_10dp"
+        android:background="@color/gray_color"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <!--Line-up Manager layouts-->
+        <RelativeLayout
+            android:id="@+id/rel_lineup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_padding_5dp"
+            android:layout_weight="5">
+
+            <ImageView
+                android:id="@+id/iv_lineup"
+                android:layout_width="@dimen/margin_padding_40dp"
+                android:layout_height="@dimen/margin_padding_40dp"
+                android:layout_centerInParent="true"
+                android:layout_margin="@dimen/margin_padding_5dp"
+                android:src="@drawable/ic_launcher_background" />
+
+            <TextView
+                android:id="@+id/tv_lineup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_lineup"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_padding_10dp"
+                android:text="@string/title_lineupmanage" />
+
+        </RelativeLayout>
+
+        <!--FAQ layouts-->
+        <RelativeLayout
+            android:id="@+id/rel_faq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_padding_5dp"
+            android:layout_weight="5">
+
+            <ImageView
+                android:id="@+id/iv_faq"
+                android:layout_width="@dimen/margin_padding_40dp"
+                android:layout_height="@dimen/margin_padding_40dp"
+                android:layout_centerInParent="true"
+                android:layout_margin="@dimen/margin_padding_5dp"
+                android:src="@drawable/ic_launcher_background" />
+
+            <TextView
+                android:id="@+id/tv_faq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_faq"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_padding_10dp"
+                android:text="@string/title_faq" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <!--Feedback & EPL Table Predictor layouts-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_padding_10dp"
+        android:layout_marginRight="@dimen/margin_padding_10dp"
+        android:background="@color/gray_color"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <!--Feedback layouts-->
+        <RelativeLayout
+            android:id="@+id/rel_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_padding_5dp"
+            android:layout_weight="5">
+
+            <ImageView
+                android:id="@+id/iv_feedback"
+                android:layout_width="@dimen/margin_padding_40dp"
+                android:layout_height="@dimen/margin_padding_40dp"
+                android:layout_centerInParent="true"
+                android:layout_margin="@dimen/margin_padding_5dp"
+                android:src="@drawable/ic_launcher_background" />
+
+            <TextView
+                android:id="@+id/tv_feedback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_feedback"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_padding_10dp"
+                android:text="@string/title_feedback" />
+
+        </RelativeLayout>
+
+        <!--EPL Table Predictor layouts-->
+        <RelativeLayout
+            android:id="@+id/rel_epl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_padding_5dp"
+            android:layout_weight="5">
+
+            <ImageView
+                android:id="@+id/iv_epl"
+                android:layout_width="@dimen/margin_padding_40dp"
+                android:layout_height="@dimen/margin_padding_40dp"
+                android:layout_centerInParent="true"
+                android:layout_margin="@dimen/margin_padding_5dp"
+                android:src="@drawable/ic_launcher_background" />
+
+            <TextView
+                android:id="@+id/tv_epl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_epl"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_padding_10dp"
+                android:maxLines="2"
+                android:text="@string/title_eplpredictor" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
